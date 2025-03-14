@@ -116,3 +116,6 @@ a {
 a:hover {
   background-color: #0056b3;
 }
+.bg-gray-300 {
+  background-color: #d1d5db; 
+}

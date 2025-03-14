@@ -28,8 +28,9 @@ export default function Koncertfelvétel() {
             });
 
             if (!response.ok) {
-                throw new Error(`Szerverhiba: ${response.status}`);
+                throw new Error(`Nem hagyhatja üresen a mezőket!`);
             }
+            
 
             setSuccess(true);
             setFelleponev('');
